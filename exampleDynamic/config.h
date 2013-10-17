@@ -8,7 +8,7 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the `hello' library (-lhello). */
-#define HAVE_LIBHELLO 1
+/* #undef HAVE_LIBHELLO */
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
@@ -64,3 +64,6 @@
 
 /* Version number of package */
 #define VERSION "1.0"
+
+/* Define to empty if `const' does not conform to ANSI C. */
+/* #undef const */

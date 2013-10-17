@@ -101,7 +101,7 @@ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS = 
 LIBOBJS = 
-LIBS = -lhello 
+LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s
@@ -184,7 +184,7 @@ top_srcdir = ..
 AUTOMAKE_OPTIONS = foreign
 INCLUDES = -I../include
 test_SOURCES = test.c
-test_LDADD = -lhello
+test_LDADD = -L../lib -lhello
 all: all-am
 
 .SUFFIXES:

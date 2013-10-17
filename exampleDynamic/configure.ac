@@ -19,7 +19,9 @@ AC_CHECK_LIB([hello], [main])
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
+AC_C_CONST
 AC_PROG_LIBTOOL
+
 AC_CONFIG_FILES([Makefile
                  lib/Makefile
                  src/Makefile])
